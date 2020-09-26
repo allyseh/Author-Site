@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>Author Bio Page</title>
+        </head>
+        <body>
+                <div class ="page">
+                        <div class="header">
+                        </div>
+                        <p> This will be a bio page for my author </p>
+                </div>
+        </body>
+
+</html>
