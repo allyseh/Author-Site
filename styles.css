@@ -14,11 +14,11 @@
 }
 
 .header-name {
-
+	font-size: 48;
 }
 
 .navbar-nav {
-
+	font-size: 24;
 }
 
 .home-banner {
@@ -28,7 +28,7 @@
 
 .photo-link {
 	position: absolute;
-	 bottom: 8px;
+	 bottom: 38px;
 	 right: 50%;
 }
 
