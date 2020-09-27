@@ -28,8 +28,9 @@
 
 .photo-link {
 	position: absolute;
-	 bottom: 38px;
-	 right: 50%;
+	bottom: 38px;
+	right: 50%;
+	font-size: 24px;
 }
 
 .banner-photo {
@@ -40,7 +41,7 @@
 }
 
 .news-item {
-	margin: 0px 100px 10px 50px; 
+	margin: 0px 200px 30px 20px; 
 }
 
 .news-headline {
