@@ -116,8 +116,8 @@
 
 }
 
-.new-release-title {
-
+.new-release-title, .summary-header {
+	margin: 30px 0px 30px 150px;
 }
 
 .summary {
@@ -125,7 +125,6 @@
 }
 
 .summary-header {
-
 }
 
 .characters {
