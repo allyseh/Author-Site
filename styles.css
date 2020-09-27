@@ -14,11 +14,13 @@
 }
 
 .header-name {
-	font-size: 72px;
+	font-size: 60px;
 }
 
 .navbar-nav {
 	font-size: 36px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .home-banner {
