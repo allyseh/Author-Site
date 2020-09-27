@@ -60,15 +60,20 @@
 }
 
 .bio-page {
-
+	
 }
 
 .bio-pic {
-
+	width: 100%;
+	float: right;
 }
 
 .about-me {
 
+}
+
+.bio-p {
+	margin: 10px 50px 10px 20px;
 }
 
 .contact-header {
