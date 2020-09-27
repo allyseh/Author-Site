@@ -74,12 +74,12 @@
 	margin: 30px 30px;
 }
 
-.bio-p {
+.bio-p, .contact-methods {
 	margin: 10px 200px 20px 80px;
 }
 
 .contact-header {
-	margin: 30px 0px 30px 30px;
+	margin: 80px 0px 30px 30px;
 }
 
 .contact-page {
@@ -92,6 +92,7 @@
 	width: 25%;
 	height: 25%;
 	order: 1;
+	margin-right: 80px;
 }
 
 .contact-me {
