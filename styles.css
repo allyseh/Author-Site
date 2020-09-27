@@ -3,11 +3,14 @@
 }
 
 .navbar-dark, .bg-primary {
-
+	background-color: #003152; !important;
 }
 
 .navbar-collapse {
 	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
 }
 
 .header-name {
@@ -19,11 +22,17 @@
 }
 
 .home-banner {
+	position: relative;
+  	text-align: center;
+}
 
+.photo-link {
+	position: absolute;
+	 bottom: 8px;
+	 right: 50%;
 }
 
 .banner-photo {
-	width: 50%;
 }
 
 .news-section {
