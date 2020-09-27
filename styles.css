@@ -67,7 +67,7 @@
 	width: 16%;
 	height: 16%;
 	float: right;
-	margin: 20px 30px 20px 20px;
+	margin: 20px 80px 20px 10px;
 }
 
 .about-me {
@@ -75,7 +75,7 @@
 }
 
 .bio-p {
-	margin: 10px 450px 20px 50px;
+	margin: 10px 250px 20px 80px;
 }
 
 .contact-header {
