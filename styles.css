@@ -36,11 +36,11 @@
 }
 
 .news-section {
-
+	margin: 50px 50px;
 }
 
 .news-item {
-
+	margin: 0px 100px 10px 50px; 
 }
 
 .news-headline {
