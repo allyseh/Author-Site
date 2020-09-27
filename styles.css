@@ -23,16 +23,21 @@
 	justify-content: space-between;
 }
 
+.nav-item {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
 .home-banner {
 	position: relative;
   	text-align: center;
 }
 
-.photo-link {
+.book-link {
 	position: absolute;
 	bottom: 38px;
 	right: 50%;
-	font-size: 48px;
+	font-size: 36px;
 }
 
 .banner-photo {
