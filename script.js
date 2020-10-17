@@ -66,7 +66,7 @@ window.onload=function(){
 	      for (let i = 0; i < json.rhymes.length - 1; i++) {
 		      results += json.rhymes[i] + ', ';
 	      }
-	      results += json.synonyms[json.rhymes.length - 1] + '</p>';
+	      results += json.rhymes[json.rhymes.length - 1] + '</p>';
 	      document.getElementById("rhyme").innerHTML = results;    
 	})
 	.catch(err => {
