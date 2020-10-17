@@ -6,8 +6,12 @@
   margin: 20px 20px 20px 20px;
 }
 
-#rhyme {
-	
+.word-form {
+  margin: 30px 0px 30px 0px;
+}
+
+#rhyme p {
+  margin-left: 20px;
 }
 
 .navbar {
