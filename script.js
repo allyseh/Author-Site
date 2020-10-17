@@ -14,8 +14,12 @@ window.onload=function(){
 			"x-rapidapi-key": "b0c0d90426msh5005b0082a5e613p1e300ejsn688ca2b295d5"
 		}
 	})
-	.then(response => {
-		console.log(response);
+	.then(function(response) {
+	      return response.json();
+	}).then(function(json) {
+	      let results = "";
+	      results += '<p>' + json.definitions[0].definition + '</p>';
+	      document.getElementById("definition").innerHTML = results;    
 	})
 	.catch(err => {
 		console.error(err);
