@@ -64,10 +64,10 @@ window.onload=function(){
 	      let results = '<h3>Rhymes:</h3>';
 	      results += '<p>';
 		debugger
-	      for (let i = 0; i < json.rhymes.length - 1; i++) {
-		      results += json.rhymes[i] + ', ';
+	      for (let i = 0; i < json.rhymes.all.length - 1; i++) {
+		      results += json.rhymes.all[i] + ', ';
 	      }
-	      results += json.rhymes[json.rhymes.length - 1] + '</p>';
+	      results += json.rhymes.all[json.rhymes.all.length - 1] + '</p>';
 	      document.getElementById("rhyme").innerHTML = results;    
 	})
 	.catch(err => {
