@@ -39,16 +39,6 @@ window.onload=function(){
 	.then(function(response) {
 	      return response.json();
 	}).then(function(json) {
-	      fetch("https://rapidapi.p.rapidapi.com/words/" + value + "/definitions", {
-		"method": "GET",
-		"headers": {
-			"x-rapidapi-host": "wordsapiv1.p.rapidapi.com",
-			"x-rapidapi-key": "b0c0d90426msh5005b0082a5e613p1e300ejsn688ca2b295d5"
-		}
-	})
-	.then(function(response) {
-	      return response.json();
-	}).then(function(json) {
 	      let results = '<h3>Synonyms:</h3>';
 	      results += '<p>';
 	      for (let i = 0; i < json.synonyms.length - 1; i++) {
@@ -62,6 +52,5 @@ window.onload=function(){
 	});
 		  	
   });
-});
 	
 }
