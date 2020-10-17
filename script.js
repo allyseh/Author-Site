@@ -7,7 +7,7 @@ window.onload=function(){
 	    return;
 	  console.log(value);
 
-	  fetch("https://rapidapi.p.rapidapi.com/words/incredible/definitions", {
+	  fetch("https://rapidapi.p.rapidapi.com/words/" + value + "/definitions", {
 		"method": "GET",
 		"headers": {
 			"x-rapidapi-host": "wordsapiv1.p.rapidapi.com",
