@@ -17,7 +17,7 @@ window.onload=function(){
 	.then(function(response) {
 	      return response.json();
 	}).then(function(json) {
-	      let results = '<h3>Definiiton(s):</h3>';
+	      let results = '<h3>Definition(s):</h3>';
 	      results += '<ol>';
 	      for (let i = 0; i < json.definitions.length; i++) {
 		      results += '<li>(' + json.definitions[i].partOfSpeech + ')  ' + json.definitions[i].definition + '</li>';
