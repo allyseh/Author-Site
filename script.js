@@ -63,6 +63,7 @@ window.onload=function(){
 	}).then(function(json) {
 	      let results = '<h3>Rhymes:</h3>';
 	      results += '<p>';
+		debugger
 	      for (let i = 0; i < json.rhymes.length - 1; i++) {
 		      results += json.rhymes[i] + ', ';
 	      }
