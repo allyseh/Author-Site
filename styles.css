@@ -1,7 +1,3 @@
-.page {
-
-}
-
 .navbar {
 	background-color: #003152; !important;
 }
@@ -145,6 +141,10 @@
 
 .tips-page {
 	margin: 20px 150px 20px 80px;
+}
+
+.tips-header {
+	color: green;
 }
 
 .dictionary {
