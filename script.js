@@ -7,7 +7,7 @@ window.onload=function(){
 	    return;
 	  console.log(value);
 		  
-	  fetch("https://rapidapi.p.rapidapi.com/words/" + value + "/definitions", {
+	 fetch("https://rapidapi.p.rapidapi.com/words/" + value + "/definitions", {
 		"method": "GET",
 		"headers": {
 			"x-rapidapi-host": "wordsapiv1.p.rapidapi.com",
@@ -46,6 +46,28 @@ window.onload=function(){
 	      }
 	      results += json.synonyms[json.synonyms.length - 1] + '</p>';
 	      document.getElementById("synonym").innerHTML = results;    
+	})
+	.catch(err => {
+		console.log(err);
+	});
+		  
+	fetch("https://rapidapi.p.rapidapi.com/words/" + value + "/ryhmes", {
+		"method": "GET",
+		"headers": {
+			"x-rapidapi-host": "wordsapiv1.p.rapidapi.com",
+			"x-rapidapi-key": "b0c0d90426msh5005b0082a5e613p1e300ejsn688ca2b295d5"
+		}
+	})
+	.then(function(response) {
+	      return response.json();
+	}).then(function(json) {
+	      let results = '<h3>Rhymes:</h3>';
+	      results += '<p>';
+	      for (let i = 0; i < json.rhymes.length - 1; i++) {
+		      results += json.rhymes[i] + ', ';
+	      }
+	      results += json.synonyms[json.rhymes.length - 1] + '</p>';
+	      document.getElementById("rhyme").innerHTML = results;    
 	})
 	.catch(err => {
 		console.log(err);
