@@ -70,5 +70,5 @@ window.onload=function(){
 	      document.getElementById("forecastResults").innerHTML = forecast;
 	    }); 
 	});  */
-  
+  })
 }
