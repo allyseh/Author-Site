@@ -22,7 +22,7 @@ window.onload=function(){
 	      for (let i = 0; i < json.definitions.length; i++) {
 		      results += '<li>' + json.definitions[i].definition + '</li>';
 	      }
-              results ++ '</ol>';
+              results += '</ol>';
 	      document.getElementById("definition").innerHTML = results;    
 	})
 	.catch(err => {
