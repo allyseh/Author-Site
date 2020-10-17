@@ -51,7 +51,7 @@ window.onload=function(){
 		console.log(err);
 	});
 		  
-	fetch("https://rapidapi.p.rapidapi.com/words/" + value + "/ryhmes", {
+	fetch("https://rapidapi.p.rapidapi.com/words/" + value + "/rhymes", {
 		"method": "GET",
 		"headers": {
 			"x-rapidapi-host": "wordsapiv1.p.rapidapi.com",
