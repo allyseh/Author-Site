@@ -20,7 +20,7 @@ window.onload=function(){
 	      let results = "";
 	      results += '<ol>';
 	      for (let i = 0; i < json.definitions.length; i++) {
-		      results += '<li>' + json.definitions[i].definition + '<br>    (' + json.definitions[i].partOfSpeech + ')</li>';
+		      results += '<li>(' + json.definitions[i].partOfSpeech + ')  ' + json.definitions[i].definition + '</li>';
 	      }
               results += '</ol>';
 	      document.getElementById("definition").innerHTML = results;    
