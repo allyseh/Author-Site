@@ -7,21 +7,20 @@ window.onload=function(){
 	    return;
 	  console.log(value);
 
-	  const url = "https://rapidapi.p.rapidapi.com/words/" + value + "/definitions";
-	  fetch(url, {
-	      "method": "GET",
-	      "headers": {
-		"x-rapidapi-host": "wordsapiv1.p.rapidapi.com",
-		"x-rapidapi-key": "b0c0d90426msh5005b0082a5e613p1e300ejsn688ca2b295d5"
-	      }
-	  })
-	  .then(response => {
-	    console.log(response);
-	  })
-	  .catch(err => {
-	    console.error(err);
-	  });
-    
+	  fetch("https://rapidapi.p.rapidapi.com/words/incredible/definitions", {
+		"method": "GET",
+		"headers": {
+			"x-rapidapi-host": "wordsapiv1.p.rapidapi.com",
+			"x-rapidapi-key": "b0c0d90426msh5005b0082a5e613p1e300ejsn688ca2b295d5"
+		}
+	})
+	.then(response => {
+		console.log(response);
+	})
+	.catch(err => {
+		console.error(err);
+	});
+
     
 	  /*    let results = "";
 	      results += ' <div class="currWeather"> <div class="clmn1"> <h2>Weather in ' + json.name + "</h2>";
