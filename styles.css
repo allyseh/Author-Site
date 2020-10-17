@@ -10,7 +10,19 @@
   margin: 30px 0px 30px 0px;
 }
 
+.word-form label {
+  font-size = 28px;
+}
+
+#wordInput, #wordSubmit {
+  margin-left: 10px;
+}
+
 #rhyme p {
+  margin-left: 20px;
+}
+
+#synonym p {
   margin-left: 20px;
 }
 
