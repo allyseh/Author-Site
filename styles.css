@@ -1,5 +1,6 @@
-.word-form {
-	color: green;
+.tips-header {
+  margin-left: 80px;
+  color: green;
 }
 
 #rhyme {
@@ -146,20 +147,6 @@
 .char-details {
 	margin: 10px 200px 20px 20px;
 }
-
-.tips-page {
-	margin: 20px 150px 20px 80px;
-}
-
-.tips-header {
-	margin-left: 50px;
-	color: green;
-}
-
-.dictionary {
-	margin: 20px 150px 20px 80px;
-}
-
 
 .footer {
 	text-align: center;
