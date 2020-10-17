@@ -18,6 +18,10 @@
   margin-left: 10px;
 }
 
+#definition, #rhyme, #synonym {
+  margin-top: 20px;
+}
+
 #rhyme p {
   margin-left: 20px;
 }
