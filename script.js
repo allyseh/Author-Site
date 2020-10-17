@@ -22,7 +22,7 @@ window.onload=function(){
 	      document.getElementById("definition").innerHTML = results;    
 	})
 	.catch(err => {
-		console.error(err);
+		console.log(err);
 	});
 
     
